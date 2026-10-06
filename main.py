@@ -7,7 +7,7 @@ def build_parser():
     # 创建命令行参数解析器对象，并设置程序描述文本
     parser = argparse.ArgumentParser(description="MedNIST Hand X-ray DCGAN")
 
-    # 核心运行模式设置：只能从 ['train', 'test'] 中选择，默认为测试模式
+    # 核心运行模式设置：只能从 ['train', 'test'] 中选择，默认为训练模式
     parser.add_argument("--mode", choices=["train", "test"], default="train",
                         help="选择运行模式：train（训练模型）或 test（生成图像）")
 

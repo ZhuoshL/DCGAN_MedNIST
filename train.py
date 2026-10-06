@@ -6,7 +6,7 @@ import torch
 from monai.utils import set_determinism
 from pytorch_lightning.callbacks import ModelCheckpoint
 from dataloader import MedNISTDataModule
-from DCGAN_MedNIST.gan_module import GAN
+from gan_module import GAN
 
 def set_random_seed(random_seed=42):
     # 固定环境变量、Python 标准库、NumPy、PyTorch 以及 MONAI 的随机种子，关闭 cuDNN 动态优化以确保实验可复现
