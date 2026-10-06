@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Dataset
+data/
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.ckpt
+
+# PyTorch Lightning logs
+lightning_logs/
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini

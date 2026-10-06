@@ -1,0 +1,9 @@
+torch
+torchvision
+pytorch-lightning
+monai
+numpy
+matplotlib
+pillow
+pandas
+requests
